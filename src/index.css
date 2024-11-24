@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .icon{
+      @apply mx-1 flex justify-center items-center border-[1px] rounded-full w-[30px] h-[30px] border-white
+    }
+}
+
+.active{
+  @apply bg-[#1abc9c] rounded-[5px]
+}
